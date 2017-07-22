@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.source       = { :git => "https://github.com/inacioferrarini/video-app-shared-module.git", :tag => s.version.to_s }
   s.source_files     = "Shared/**/*.swift"
-
+  s.ios.deployment_target  = '9.0'
+  
   s.dependency 'Glasgow'
 end
