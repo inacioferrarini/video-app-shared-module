@@ -1,0 +1,11 @@
+
+workspace: Shared.xcworkspace
+xcodeproj: Shared.xcodeproj
+scheme: Shared
+output_directory: slather-report
+source_directory: Shared
+coverage_service: html
+ignore:
+  - Pods/*
+  - SharedTests/*
+
