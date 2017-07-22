@@ -1,3 +1,35 @@
-PODFILE CHECKSUM: 92bc54709ba40e77e347033311922213d1e8dc5c
+PODS:
+  - Arrow (3.0.5)
+  - Glasgow (0.1.0):
+    - Glasgow/Arrow (= 0.1.0)
+    - Glasgow/Core (= 0.1.0)
+    - Glasgow/Networking (= 0.1.0)
+    - Glasgow/Transformer (= 0.1.0)
+    - Glasgow/UIKit (= 0.1.0)
+  - Glasgow/Arrow (0.1.0):
+    - Arrow (= 3.0.5)
+    - Glasgow/Transformer
+  - Glasgow/Core (0.1.0)
+  - Glasgow/Networking (0.1.0):
+    - Glasgow/Transformer
+  - Glasgow/Transformer (0.1.0)
+  - Glasgow/UIKit (0.1.0):
+    - Glasgow/Core
+  - SharedModule (0.0.1):
+    - Glasgow
 
-COCOAPODS: 1.0.1
+DEPENDENCIES:
+  - SharedModule (from `../Shared`)
+
+EXTERNAL SOURCES:
+  SharedModule:
+    :path: "../Shared"
+
+SPEC CHECKSUMS:
+  Arrow: b696d6173296da330d1a995019db42f693249cd6
+  Glasgow: 39d41637c125a39aade3cd89a66489d619e81ea7
+  SharedModule: b16613289ca72060d9069ca32d5edefe903c6c17
+
+PODFILE CHECKSUM: 6e975c2d65393f5fb87c74428a49685b3acc1827
+
+COCOAPODS: 1.2.1

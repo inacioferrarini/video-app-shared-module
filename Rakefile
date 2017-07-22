@@ -29,7 +29,7 @@ end
 
 desc "Publish to mine repository"
 task :publish do
-   sh "bundle exec pod lib lint "
+   sh "bundle exec pod lib lint"
    sh "git add -A && git commit"
    sh "git tag"
    sh "git push --tags"

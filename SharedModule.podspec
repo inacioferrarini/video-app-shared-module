@@ -8,12 +8,10 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/inacioferrarini/video-app-shared-module"
   s.license      = "MIT"
   s.authors      = { "Inácio Ferrarini" => "inacio.ferrarini@gmail.com" }
-  s.platform     = :ios
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = '8.0'
   s.source       = { :git => "https://github.com/inacioferrarini/video-app-shared-module.git", :tag => s.version.to_s }
   s.source_files     = "Shared/**/*.swift"
-  s.ios.deployment_target  = '9.0'
-  s.platform     = :ios, '9.0'
+  s.ios.deployment_target = '8.0'
   s.requires_arc = true
   s.dependency 'Glasgow'
 end
