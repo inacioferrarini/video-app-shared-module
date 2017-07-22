@@ -28,12 +28,22 @@ task :repoadd do
 end
 
 desc "Publish to mine repository"
+task :publish, [:version] do |t, args|
+    if args[:version].nil?
+        puts "Usage: rake publish['0.2.0'] or rake publish\\[\\'0.2.0\\'\\] if using zsh"
+    else
+        puts "!!SOON: Update podspec version from here!!"
+        sh "bundle exec pod lib lint"
+        sh "git add -A && git commit -m \"Release #{args[:version].to_s}\""
+        sh "git tag '#{args[:version].to_s}'"
+        sh "git push --tags"   
+        sh "bundle exec pod repo push inacio-specs SharedModule.podspec"
+    end
+end
+
+desc "prints publish help"
 task :publish do
-   sh "bundle exec pod lib lint"
-   sh "git add -A && git commit"
-   sh "git tag"
-   sh "git push --tags"
-   sh "bundle exec pod repo push inacio-specs SharedModule.podspec"
+    
 end
 
 desc "Generates Code Style Report."

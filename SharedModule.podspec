@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = "SharedModule"
-  s.version      = "0.0.1"
-  s.summary      = "Video App Playlist Module."
+  s.version      = "0.0.2"
+  s.summary      = "Video App Shared Module."
   s.description  = <<-DESC
-                      Playlist Module for VideoApp.
+                      Video App Shared Module.
                       DESC
   s.homepage     = "https://github.com/inacioferrarini/video-app-shared-module"
   s.license      = "MIT"
