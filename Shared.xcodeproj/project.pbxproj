@@ -12,7 +12,7 @@
 		76A684771F23B3D100C773DB /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A6846D1F23B3D100C773DB /* Shared.framework */; };
 		76A6847C1F23B3D100C773DB /* SharedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A6847B1F23B3D100C773DB /* SharedTests.swift */; };
 		76A6847E1F23B3D100C773DB /* Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A684701F23B3D100C773DB /* Shared.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76A6848A1F240BD600C773DB /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A684891F240BD600C773DB /* Class.swift */; };
+		76A6848A1F240BD600C773DB /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A684891F240BD600C773DB /* AppContext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 		76A684761F23B3D100C773DB /* SharedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A6847B1F23B3D100C773DB /* SharedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTests.swift; sourceTree = "<group>"; };
 		76A6847D1F23B3D100C773DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76A684891F240BD600C773DB /* Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		76A684891F240BD600C773DB /* AppContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			children = (
 				76A684701F23B3D100C773DB /* Shared.h */,
 				76A684711F23B3D100C773DB /* Info.plist */,
-				76A684891F240BD600C773DB /* Class.swift */,
+				76A684891F240BD600C773DB /* AppContext.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -315,7 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76A6848A1F240BD600C773DB /* Class.swift in Sources */,
+				76A6848A1F240BD600C773DB /* AppContext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

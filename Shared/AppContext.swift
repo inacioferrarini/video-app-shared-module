@@ -8,6 +8,6 @@
 
 import UIKit
 
-class Class: NSObject {
+public class AppContext {
 
 }
